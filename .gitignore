@@ -137,3 +137,30 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+LC-Art-Emporium/node_modules
+LC-Art-Emporium/dist
+LC-Art-Emporium/dist-ssr
+LC-Art-Emporium/*.local
+LC-Art-Emporium/eslint.config.js
+
+# Editor directories and files
+LC-Art-Emporium/.vscode/*
+LC-Art-Emporium/!.vscode/extensions.json
+LC-Art-Emporium/.idea
+LC-Art-Emporium/.DS_Store
+LC-Art-Emporium/*.suo
+LC-Art-Emporium/*.ntvs*
+LC-Art-Emporium/*.njsproj
+LC-Art-Emporium/*.sln
+LC-Art-Emporium/*.sw?
